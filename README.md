@@ -39,10 +39,10 @@ CART-Tumor-ModelRepository/
 ## Model
 
 The tumour cell lifetime is modelled as a right-censored survival process with a parametric hazard rate of the form:
-$$
+'''
 d(t;\,\mathbf{v}) = \kappa_a \int_0^t e^{-\tilde{\kappa}_a\tau}\,v_a(\tau)\,e^{-\gamma(t-\tau)}\,d\tau
 + \kappa_s \int_0^t e^{-\tilde{\kappa}_s\tau}\,v_s(\tau)\,e^{-\gamma(t-\tau)}\,d\tau
-$$
+'''
 
 | Parameter | Symbol | Interpretation |
 |---|---|---|
